@@ -15,4 +15,4 @@ O planejamento engloba três atividades principais:
 
 Exemplo: 
 
-[Plano de Testes BugBank](//Documentacoes/Plano%20de%20Testes/plano-teste-bugbank.md)
+[Plano de Testes BugBank](/Plano%20de%20Testes/plano-teste-bugbank.md)
