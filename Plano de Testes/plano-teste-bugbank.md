@@ -2,6 +2,9 @@
 
 <p align="center"> <img src="https://bugbank.netlify.app/_ipx/w_640,q_75/%2F_next%2Fstatic%2Fmedia%2Fbugbank.ede6fc83.png?url=%2F_next%2Fstatic%2Fmedia%2Fbugbank.ede6fc83.png&w=640&q=75"> </p>
 
+[BugBank](https://bugbank.netlify.app/): "O banco com bugs e falhas do seu jeito", é um projeto semelhante a projetos reais para que seja possível a prática e o planejamento de testes e automação de testes.
+
+
 1) Introdução
 
 1.1) Escopo

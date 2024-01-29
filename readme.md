@@ -1,17 +1,26 @@
 # Material Pesquisa e Estudo sobre QA
 
+    Materiais formulados a partir dos meus estudos e pesquisas pessoais na área de Quality Assurance.
+    Contribuições são bem vindas.
+
 ### Menu
 
-    ## 1 - API
-    ## 1.1 - [API - Introdução](/API/api-intro.md)
-    ## 1.2 - [API - Insomnia](/API/insomnia.md)
+## API
 
-    ## 2 - Documentações
-    ## 2.1 - [Plano de Testes](/Documentacoes/Plano%20de%20Testes/plano-testes.md)
-    ## 2.2 - [Teste Funcional](/Documentacoes/Funcional/relatorio.md)
-    ## 2.3 - [TDD](/Documentacoes/Funcional/tdd.md)
+[API - Introdução](/API/api-intro.md)
+
+[API - Insomnia](/API/insomnia.md)
+
+## Documentações
+
+[Introducção Plano de Testes](/Plano%20de%20Testes/plano-testes.md)
+
+[Exemplo Plano de Testes](/Plano%20de%20Testes/plano-teste-bugbank.md)
+
+[BDD e Gherkin](/Gherkin/bdd-gherkin.md)
+
+[Estratégias de Testes](/Estratégias%20Testes/estrategias-teste.md)
 
 
 
-Criado por [Amanda Kopper Hammes](https://github.com/amandahammes) para arquivo pessoal de estudo.
-Contribuições são bem vindas.
+    Criado por [Amanda Kopper Hammes](https://github.com/amandahammes) como arquivo pessoal de pesquisa.
