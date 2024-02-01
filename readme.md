@@ -9,6 +9,8 @@
 
 [API - Introdução](/API/api-intro.md)
 
+[API - Postman](/API/postman.md)
+
 [API - Insomnia](/API/insomnia.md)
 
 ## Documentações
