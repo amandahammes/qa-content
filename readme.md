@@ -1,7 +1,9 @@
 # Material Pesquisa e Estudo sobre QA
 
-    Materiais formulados a partir dos meus estudos e pesquisas pessoais na área de Quality Assurance.
-    Contribuições são bem vindas.
+Materiais formulados a partir de estudos e pesquisas pessoais na área de Quality Assurance.
+
+[Borad de Plano de Estudos](https://github.com/users/amandahammes/projects/7/views/1) 
+
 
 ### Menu
 
@@ -13,6 +15,8 @@
 
 [API - Insomnia](/API/insomnia.md)
 
+[Lista API's Públicas](/API/apis-publicas.md)
+
 ## Documentações
 
 [Introducção Plano de Testes](/Plano%20de%20Testes/plano-testes.md)
@@ -23,6 +27,12 @@
 
 [Estratégias de Testes](/Estratégias%20Testes/estrategias-teste.md)
 
+## Syllabus
 
+[Glossário](/Glossário/glossario.md)
 
-Criado por [Amanda Kopper Hammes](https://github.com/amandahammes) como arquivo pessoal de pesquisa.
+[Menu Estudos](/Syllabus/menu.md)
+
+<br><br>
+
+Criado por [Amanda Kopper Hammes](https://github.com/amandahammes) como arquivo pessoal de pesquisa. Contribuições são bem vindas.

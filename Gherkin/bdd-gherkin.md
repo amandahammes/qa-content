@@ -2,8 +2,11 @@
 
 BDD: Behavior Driven Development ou: Desenvolvimento Guiado por Comportamento.
 
+No ISTBQ: "Uma abordagem colaborativa ao desenvolvimento, na qual a equipe está focada em fornecer o comportamento esperado de um componente ou sistema para o cliente, compondo a base para o teste."
+
 Surgiu em meados de 2000 com o objetivo de aproximar membros do time, desde a área de negócio ao desenvolvimento. Juntos, o time descobre e refina os requisitos dos testes.
-BDD veio do TDD. A diferença entre eles é que o BDD é focado no time pois todos escrevem juntos e antes do desenvolvimento.
+BDD veio do TDD. A diferença entre eles é que o BDD é feito pelo time, todos escrevem juntos e antes do desenvolvimento.
+BDD nada mais é do que um processo de desenvolvimento de software.
 
 Gherkin: "linguagem natural desenvolvida para que humanos possam a utilizar como forma de entendimento e compreensão acerca das especificações levantadas a partir da perspectiva do stakeholder" [^1]
 
@@ -26,6 +29,8 @@ Gherkin usa um conjunto de palavras-chave para dar significado às especificaç�
     **Mas** [Utilizado no caso de sucessivos "Dado", "Quando", "Então"]
 
 É muito importante ter em mente que a escrita do BDD e de código devem estar separados, sempre! De um lado o código com aplicação de *design pattern* e do outro a criação de cenários independentes do código, em terceira pessoa e focando mais em **o que** do que em **como**.
+
+Também é importante entender que um cenário em Gherkin não é o BDD!
 
 #### Materiais de consulta
 
