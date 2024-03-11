@@ -2,7 +2,7 @@
 
 Materiais formulados a partir de estudos e pesquisas pessoais na área de Quality Assurance.
 
-[Borad de Plano de Estudos](https://github.com/users/amandahammes/projects/7/views/1) 
+[Board de Plano de Estudos](https://github.com/users/amandahammes/projects/7/views/1) 
 
 
 ### Menu
