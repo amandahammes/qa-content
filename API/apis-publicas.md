@@ -1,6 +1,7 @@
 # Lista APIs Públicas
 
 [PokéAPI](https://pokeapi.co/)
+[Guia para Usar a PokeAPI](https://www.dio.me/articles/um-guia-simples-para-usar-a-pokeapi-e-conhecer-melhor-seus-pokemon-favoritos)
 
 [ViaCep](https://viacep.com.br/)
 
