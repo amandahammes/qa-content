@@ -16,6 +16,8 @@ API => abstrai o que está no backend e entrega pro client somente as informaç�
 
 É muito importante que o QA saiba como uma API funciona e quais os conceitos relacionados a API e o backend.
 
+**Importância testes de API:** garantir o funcionamento correto das requisições, respostas (request e response) e funcionalidades da interface.
+
 ### **Request & Response**
 
     Request: requisição que o cliente envia ao servidor. Ela possui todas as informações acerca do que o cliente espera receber de volta.
@@ -55,6 +57,31 @@ Um exemplo de documentação da interface que você está interagindo.
 ![Imagem Swagger 1](/imagens/swagger2.jpg)
 
 ![Imagem Swagger 1](/imagens/swagger3.jpg)
+
+
+## Técnicas de teste
+
+### Unidade
+
+Valida partes isoladas da API. Geralmente quem desenvolve e aplica é o desenvolvedor da API.
+
+Exemplo: testar as Collections - coleções (que são conjuntos de requisições individuais que podem ser agrupadas e organizadas em uma estrutura hierárquica).
+
+### Contrato
+
+Verificar conformidade com especificações da API. Ou seja, comparar documentação da API e requisições realizadas para garantir alinhamento dos endpoints.
+
+### Integração
+
+Avaliar interação entre diferentes endpoints. Ou seja, obter detalhes da resposta, validando a consistência entre as informações recebidas.
+
+### Particionamento de equivalência
+
+???
+
+## Report de bug
+
+Evidenciar como deveria acontecer, e o retorno que não é o mesmo da documentação.
 
 
 ### Materiais úteis
