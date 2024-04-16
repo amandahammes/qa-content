@@ -88,5 +88,7 @@ Evidenciar como deveria acontecer, e o retorno que não é o mesmo da documenta�
 
 [Json Formatter](https://jsonformatter.org/)
 
+[PokeAPI](https://pokeapi.co/)
+
 
 Fonte: [Curso de Testes de API Rest - Julio de Lima](https://www.youtube.com/playlist?list=PLf8x7B3nFTl17WeEVj405tHlstiq1kNBX)

@@ -1,6 +1,10 @@
 # O que é o Postman?
 
-O Postman é uma ferramenta que dá suporte à documentação das requisições feitas pela API. Ele possui ambiente para a documentação, execução de testes de APIs e requisições em geral.
+O Postman é uma ferramenta que dá suporte à documentação das requisições feitas pela API, ou seja, permite a criação de requisições HTTP personalizadas. Possui ambiente para a documentação, execução de testes de APIs e requisições em geral.
+
+**Teste de APIs** oferece um ambiente para testar as APIs, possibilitando a validação de respostas e a automação de testes.
+
+**Ambientes** Possibilita a configuração de ambientes, permitindo alternar entre diferentes conjuntos de variáveis e configurações de forma fácil e rápida.
 
 # Como funciona?
 

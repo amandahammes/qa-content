@@ -19,13 +19,19 @@ Materiais formulados a partir de estudos e pesquisas pessoais na área de Qualit
 
 ## Documentações
 
-[Introducção Plano de Testes](/Plano%20de%20Testes/plano-testes.md)
+[Introducção Plano de Testes](/Testware/Plano%20de%20Testes/plano-testes.md)
 
-[Exemplo Plano de Testes](/Plano%20de%20Testes/plano-teste-bugbank.md)
+[Exemplo Plano de Testes](/Testware/Plano%20de%20Testes/plano-teste-bugbank.md)
 
 [BDD e Gherkin](/Gherkin/bdd-gherkin.md)
 
 [Estratégias de Testes](/Estratégias%20Testes/estrategias-teste.md)
+
+[Qualidade](/qualidade/introducao.md)
+
+[Gerenciamento de Defeitos](/qualidade/gerenciamento-defeitos.md)
+
+[Medida de Qualidade](/qualidade/medida-qualidade.md)
 
 ## Syllabus
 
@@ -35,4 +41,4 @@ Materiais formulados a partir de estudos e pesquisas pessoais na área de Qualit
 
 <br><br>
 
-Criado por [Amanda Kopper Hammes](https://github.com/amandahammes) como arquivo pessoal de pesquisa. Contribuições são bem vindas.
+Criado por [Amanda Kopper Hammes](https://github.com/amandahammes) como arquivo de pesquisa. Contribuições são bem vindas.
