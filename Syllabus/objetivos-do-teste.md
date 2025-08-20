@@ -12,4 +12,4 @@
   - Validar se o objeto de teste está completo e funciona conforme o esperado pelos stakeholders.
 
 
-Os objetivos dos testes podem variar, dependendo do contexto, o que inclui o produto de trabalho que está sendo testado, o nível de teste, os riscos, o ciclo de vida de       desenvolvimento de software (SDLC) que está sendo seguido e os fatores relacionados ao contexto do negócio, por exemplo, estrutura corporativa, considerações competitivas     ou tempo de comercialização. 
+Eles podem variar, dependendo do contexto, o que inclui o produto de trabalho que está sendo testado, o nível de teste, os riscos, o ciclo de vida de       desenvolvimento de software (SDLC) que está sendo seguido e os fatores relacionados ao contexto do negócio, por exemplo, estrutura corporativa, considerações competitivas     ou tempo de comercialização. 
