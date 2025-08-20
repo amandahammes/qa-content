@@ -1,4 +1,4 @@
-*Os objetivos típicos do teste são:*
+**Os objetivos típicos do teste são:**
 
 
   - Avaliar produtos de trabalho, como requisitos, histórias de usuários, projetos e código;
