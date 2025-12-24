@@ -13,7 +13,6 @@ API => abstrai o que está no backend e entrega pro client somente as informaç�
     Repository: Responsável por trafegar as informações entre a regra de negócios e o banco de dados ou sistema de armazenamento;
     Controller: implementação da API/Rest buscando as informações através dos serviços; 
 
-
 É muito importante que o QA saiba como uma API funciona e quais os conceitos relacionados a API e o backend.
 
 **Importância testes de API:** garantir o funcionamento correto das requisições, respostas (request e response) e funcionalidades da interface.
@@ -25,15 +24,15 @@ API => abstrai o que está no backend e entrega pro client somente as informaç�
 
 Para fazer Request e receber Response pelo terminal (bash):
 
-    $ curl -X POST -is http://endereco/caminho/auth -d ' { conteúdo do Json, ex: "email": "email@mail.com", "senha": "123456" }' -H 'Content-Type: appication/json'
+    $ curl -X POST -is http://endereco/caminho/auth -d ' { conteúdo do Json, ex: "email": "email@mail.com", "senha": "123456" }' -H 'Content-Type: application/json' -H 'Authorization: token'
 
 Onde:
 
-    -i => organiza o conteúdo do cabeçalho do response;
+    -i => informa de mandeira organizada o conteúdo do cabeçalho (header) no response;
     -s => remove informações do tempo de resposta;
-    -d => dados do body a serem inseridos;
-    -H => insere header;
-
+    -is => chama os dois acima ao mesmo tempo;
+    -d => informa que logo após tem um body na requisição, geralmente em JSON (existem alguns que recebem em xml);
+    -H => informa que tem um header na requisição (ele não vai com aspas duplas como o body), cada informação vai um -H antes;
 
 ### **Como enviar dados para API/REST**
 
@@ -46,7 +45,6 @@ Através de Header, Query, Path e Body
     QUERY => depois do caminho da requisição, por exemplo um GET http://localhost:8089/api/v1/viagens?regiao=Norte&acompanhante=Isabelle o que vem depois do ? é uma query.
 
     PATH => quando vai alterar, adicionar ou deletar um objeto, você faz isso via path (normalmente o id do objeto). Assim como a query é no endpoint, depois do barra, por exemplo http://localhost:8089/api/v1/viagens/1
-
 
 ### **Swagger**
 

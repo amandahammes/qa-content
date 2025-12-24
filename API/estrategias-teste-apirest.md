@@ -1,4 +1,4 @@
-# Estratégia de Testes
+# Estratégia de Testes API REST
 
 Entender o que precisa ser testado construindo uma estratégia de testes.
 Opção de documentação/organização é o mindmap.
@@ -20,7 +20,6 @@ Dentro de cada nodo do mapa outros nodos podem ser criados:
     Abordagens: exemplo - teste baseado em riscos.
     Técnicas: As técnicas de testes que vão ser usadas, ex partição de equivalência.
     Tipos: que tipos de testes que vão ser criados/executados. Exemplo: funcionais, não funcionais, estruturais.
-
 
 
 Fonte: [Curso de Testes de API Rest - Julio de Lima](https://www.youtube.com/playlist?list=PLf8x7B3nFTl17WeEVj405tHlstiq1kNBX)

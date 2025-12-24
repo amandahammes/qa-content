@@ -7,6 +7,11 @@ Materiais formulados a partir de estudos e pesquisas pessoais na área de Qualit
 
 ### Menu
 
+## DevOps para QAs
+
+[Git](/git/git.md)
+
+
 ## API
 
 [API - Introdução](/API/api-intro.md)
@@ -15,7 +20,6 @@ Materiais formulados a partir de estudos e pesquisas pessoais na área de Qualit
 
 [API - Insomnia](/API/insomnia.md)
 
-[Lista API's Públicas](/API/apis-publicas.md)
 
 ## Documentações
 
@@ -33,11 +37,20 @@ Materiais formulados a partir de estudos e pesquisas pessoais na área de Qualit
 
 [Medida de Qualidade](/qualidade/medida-qualidade.md)
 
+
 ## Syllabus
 
 [Glossário](/Glossário/glossario.md)
 
 [Menu Estudos](/Syllabus/menu.md)
+
+
+## Materiais para prática
+
+[Lista API's Públicas](/API/apis-publicas.md)
+
+[Sites para prática de lógica de programação](/Práticas/logica.md)
+
 
 <br><br>
 
