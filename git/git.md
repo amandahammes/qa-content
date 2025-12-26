@@ -61,9 +61,52 @@ Para saber o estado atual do repisotório: `git status`.
 ## Outros comandos
 
 `git rm nomeDoArquivo`: remove o arquivo local.
+`git remote add origin codigoHTTPSdoRepoRemoto`: comando que faz a conexão entre repositório local.
+`git push -u origin master`: envia pela primeira vez os commits locais para repositório remoto.
+`git pull`: Traz do repositório remoto, da mesma branch que eu estou, todas as alterações, tudo que tem de novo no remoto. Ou seja, do remoto para o local. 
+`git push`: Envia todas as alterações commitadas da branch local para o repositório remoto.
 
 
 ## .gitignore
 
 `.gitignore` é um arquivo que fica na pasta principal do projeto (assim como o readme) em que são adicionados nomes de arquivos do projeto que serão ignorados pelo git ao fazer commits realizar push para o repositório remoto. Exemplos de arquivos que não devem ser commitados nem enviados ao repositório remoto: .node, .env, etc.
 `*-local.md`: asterisco usado para definir todos, nesse caso, todos os arquivos com sufixo igual a *-local.md*
+
+
+## Git flow
+
+![Exemplo gitflow](/imagens/gitflow.png)
+
+* Branch master (ou main): a linha do tempo principal, ou seja, a que vai ter o código de produção.
+Só se manda para a master, quando o códiog está pronto, entregável: já foi testado, já foi validado, já foi homologado...
+
+* Branch develop: é um branch design, é a partir dele que os devs vão desenvolver as features. Ele é o espelho da master, mas está uns pontos a frente antes de ir para a master, por conta das features.
+
+* Feature branch: branch criada a partir de develop para desenvolver uma nova feature da equipe. A feature vai ser desenvolvida, feitos os commits e depois incorporada novamente a develop.
+
+* Release branch: candidato a ir para a produção. Nele são feitos testes, corrigidos bugs para garantir que tudo vá para a master funcionando corretamente. Caso tenha alterações na release, elas vão para develop e para master.
+
+
+## Pull request
+
+Pedido para que o branch original, faça um pull das atualizações enviadas. Ou seja, no caso de uma feature, a branch da feature vai fazer um pedido para atualizar a branch develop.
+Code review: outro membro da equipe confere o código do pull request para ver se está tudo ok. Também é uma boa prática para aprender com os outro colegas.
+Merge: incorpora o feature que foi feito pull request, na branch solicitada, no caso do exemplo acima, a develop.
+
+
+## Resolução de Conflitos
+
+Quando, ao realizar um pull request, uma outra alteração no mesmo arquivo/linhas que a melhoria da branch do pull request, foi feita por outra branch/pull request para a branch de destino, haverá um conflito. Ou seja, se a branch a fez uma melhoria na linha 10 do arquivo index.html, mergeando para a develop e a branch b também fez ula alteração nessa mesma linha, quando a branch b for realizar o pull request para a develop, haverá conflitos. Mas como resolvê-los?
+Para resolver local, vou dar um pull na branch de destino, no caso a develop, faço um checkout para a branch que deu conflito, no exemplo a branch b e vou dar um `git merge develop`. Isso vai fazer com que o conflito apareça no repositório local. Para resolver o conflito, ver a modificação em `git status`. Vou abrir o arquivo pelo `vim nomeDoArquivoEmConflito` e vou ver, conforme imagem abaixo, nas linhas que estão acontecendo o conflito, uma tag: <<<<< HEAD, que mostra onde começa o conflito e que diz que esse trecho de código está na branch que foi recentemente implementada e que gerou o conflito, no caso do nosso exemplo a branch b, separado por ======= que finaliza o código da branch do conflito para o código da branch que está recebendo esse pull request, no nosso caso a develop, finalizando com >>>>>>> develop, pra sinalizar que é o fim do conflito na branch develop.
+
+![Exemplo conflito](/imagens/conflito-exemplo.png)
+
+Caso eu queira manter os dois códigos, somente apago as tags <<<<< HEAD, ======= e >>>>>>> develop, mantendo os dois textos.
+Caso eu queira manter só um, apago o outro e apago as tags.
+
+Depois de arrumar as alterações e salvar (`:wq`), rodar os comandos:
+`git add .` para adicionar a alteração do conflito
+`git commit -m "corrigido conflito"`
+`git push origin branchB`
+
+Depois disso, o conflito vai ter desaparecido do pull request no repositório remoto e será possível realizar o merge.
