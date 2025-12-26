@@ -110,3 +110,13 @@ Depois de arrumar as alterações e salvar (`:wq`), rodar os comandos:
 `git push origin branchB`
 
 Depois disso, o conflito vai ter desaparecido do pull request no repositório remoto e será possível realizar o merge.
+
+## Tags
+
+O sistema de controle de versão é um aliado muito importante no processo de entrega contínia se software. A medida que a gente evolui nessa trajetória, encontramos formatos que nos atendem melhor nas tarefas do dia a dia. O uso das tags vai justamente nos mostrar isso. Quando usamos um sistema de integração/entrega contínua de software, nós queremos que uma versão fechada, um "pacote" seja entregue em qualquer ambiente (teste, dev, homologação, estresse e produção).
+Com as tags, podemos fechar um pacote, uma versão e entregar em qualquer um dos ambientes. Com as tags conseguimos marcar o momento do tempo e usar essa tag pra publicar no software em qualquer dos ambientes.
+
+Tags são geralmente criadas no ambiente master/main. Como fazer para criar a primeira versão, por exemplo (v1.0)?
+Preciso estar com branch master atualizado (`git pull` para garantir) e então rodar o comando: `git tag -m "MENSAGEM DA VERSÃO" v1.0`. Para enviar a versão para o repositório remoto: `git push origin v1.0`
+
+Posso fazer checkout para as versãoes, por exemplo: `git checkout v1.0`. Para ir para o código que ainda não foi criada versão, só dar um `git checkout master`. 
