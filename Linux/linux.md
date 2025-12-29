@@ -25,6 +25,7 @@
 `rm *.txt`: remove tudo que tem final .txt
 `exit`: sai do terminal
 
+
 ## Pacotes Terminal
 
 `apt`: gerenciador de pacotes do linux que permite instalar e remover pacotes de aplicativos pelo terminal
@@ -49,3 +50,20 @@
 `u`: desfaz a última alteração.
 `g`: 2x a letra g, leva o cursor para o início do arquivo
 `shift + g`: leva para o final do arquivo
+`:10`: me leva para linha 10, o número corresponde a linha que eu quero ir.
+
+## CAT
+
+`cat nomeDoArquivo`: lê o arquivo e joga o conteúdo no terminal
+`man cat`: ver manual cat
+`cat -e nomeArquivo`: mostra caracteres especiais (não printáveis)
+`cat nomeArquivo | more`: navega em conteúdo grande, mostrando página por página. Para passar as páginas, usa-se o ESPAÇO ou as setas para navegar.
+`tail -1 nomeArquivo`: mostra o fim do arquivo, nesse caso, a última linha. Se -9, mostra as últimas 9 linhas.
+`head -1 nomeArquivo`: mostra o topo do arquivo, nesse caso a primeira linha.
+`tail -f nomeArquivo`: acompanha/monitora tudo que está sendo inserido nesse arquivo (muito usado para acompanhar as últimas linhas de um arquivo de log, por exemplo, onde linhas são inseridas enquando o arquivo está sendo visualizado)
+`cat nomeArquivo | grep palavra`: traz todas as linhas que tem palavra dentro do arquivo ou log.
+`cat nomeArquivo | grep -n palavra`: o mesmo a cima, mas o -n diz em qual linha está a palavra.
+`cat nomeArquivo | egrap -v "palavra1|palavra2|palavra3"`: egrap trabalha com vários termos juntos. O -v indicar que são termos que não vão aparecer.
+`tar -cvf nomeArquivoASerCriado nomaDaPasta`: gera um arquivo chamado omeArquivoASerCriado com tudo da pasta nomeDaPasta compactado nele.
+`zip npmeArquivoZip.zip nomePasta`: cria um zip chamado npmeArquivoZip.zip com o conteúdo nomePasta
+`unzip npmeArquivoZip.zip`: descompacta os arquivos do zip
