@@ -2,57 +2,57 @@
 
 Materiais formulados a partir de estudos e pesquisas pessoais na área de Quality Assurance.
 
-[Board de Plano de Estudos](https://github.com/users/amandahammes/projects/7/views/1) 
+## Menu
+
+### DevOps para QAs
+
+* [Git](/git/git.md)
+
+* [Introdução ao Linux](/Linux/linux.md)
 
 
-### Menu
+### API
 
-## DevOps para QAs
+* [API - Introdução](/API/api-intro.md)
 
-[Git](/git/git.md)
+* [API - Postman](/API/postman.md)
 
-[Introdução ao Linux](/Linux/linux.md)
-
-## API
-
-[API - Introdução](/API/api-intro.md)
-
-[API - Postman](/API/postman.md)
-
-[API - Insomnia](/API/insomnia.md)
+* [API - Insomnia](/API/insomnia.md)
 
 
-## Documentações
+### Documentações
 
-[Introducção Plano de Testes](/Testware/Plano%20de%20Testes/plano-testes.md)
+* [Introducção Plano de Testes](/Testware/Plano%20de%20Testes/plano-testes.md)
 
-[Exemplo Plano de Testes](/Testware/Plano%20de%20Testes/plano-teste-bugbank.md)
+* [Exemplo Plano de Testes](/Testware/Plano%20de%20Testes/plano-teste-bugbank.md)
 
-[BDD e Gherkin](/Gherkin/bdd-gherkin.md)
+* [BDD e Gherkin](/Gherkin/bdd-gherkin.md)
 
-[Estratégias de Testes](/Estratégias%20Testes/estrategias-teste.md)
+* [Estratégias de Testes](/Estratégias%20Testes/estrategias-teste.md)
 
-[Qualidade](/qualidade/introducao.md)
+* [Qualidade](/qualidade/introducao.md)
 
-[Gerenciamento de Defeitos](/qualidade/gerenciamento-defeitos.md)
+* [Gerenciamento de Defeitos](/qualidade/gerenciamento-defeitos.md)
 
-[Medida de Qualidade](/qualidade/medida-qualidade.md)
-
-
-## Syllabus
-
-[Glossário](/Glossário/glossario.md)
-
-[Menu Estudos](/Syllabus/menu.md)
+* [Medida de Qualidade](/qualidade/medida-qualidade.md)
 
 
-## Materiais para prática
+### Syllabus
 
-[Lista API's Públicas](/API/apis-publicas.md)
+* [Glossário](/Glossário/glossario.md)
 
-[Sites para prática de lógica de programação](/Práticas/logica.md)
+* [Menu Estudos](/Syllabus/menu.md)
+
+
+### Materiais para prática
+
+* [Lista API's Públicas](/API/apis-publicas.md)
+
+* [Sites para prática de lógica de programação](/Práticas/logica.md)
 
 
 <br><br>
 
 Criado por [Amanda Kopper Hammes](https://github.com/amandahammes) como arquivo de pesquisa. Contribuições são bem vindas.
+
+[Board de Plano de Estudos](https://github.com/users/amandahammes/projects/7/views/1) 
