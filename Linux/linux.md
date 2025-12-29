@@ -44,5 +44,8 @@
 `:q!`: sair sem salvar
 `:wq`: salvar e sair
 `:q`: sair sem ter editado o texto
-`/texto`: quando não está em modo INSERT, ele pesquisa a palavra no arquivo ao apertar enter e apresenta 
-
+`/texto`: quando não está em modo INSERT, ele pesquisa a palavra no arquivo ao apertar enter e apresenta a primeira palavra correspondente ao texto. Se o texto tem mais repetições da palavra ao longo do texto, ao apertar `n`, a próxima ocorrência da palavra `texto` é destacada. A busca é case sentitiv, ou seja, faz diferença escrever com maiúsculas e minúsculas.
+`d`: ao clicar 2x na letra d, sem estar em modo de edição, uma linha é deletada. Se eu digitar um número e 2x a letra d, 5 linhas serão deletadas.
+`u`: desfaz a última alteração.
+`g`: 2x a letra g, leva o cursor para o início do arquivo
+`shift + g`: leva para o final do arquivo
