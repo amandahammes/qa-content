@@ -16,8 +16,6 @@ Rode no powershell como admin e execute os seguintes comandos um após o outro
 Como desinstalar uma distribuição WSL?
 Execute `wsl --unregister <distroName>` em que <distroName> é o nome da distribuição do Linux, que pode ser visto na lista no `wsl -l`.
 
-Instale o update.msi baixando por esse [link!](https://drive.google.com/file/d/1A7jydq_vpzIe4GidBib4TrCmvf_0G3xS/view?usp=drive_link)
-
 ## Instalando a Distro
 Use a loja da MS pra baixar o Ubuntu ou a distro que desejar. Preferencialmente Ubuntu.
 
