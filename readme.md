@@ -56,5 +56,3 @@ Materiais formulados a partir de estudos e pesquisas pessoais na área de Qualit
 <br><br>
 
 Criado por [Amanda Kopper Hammes](https://github.com/amandahammes) como arquivo de pesquisa. Contribuições são bem vindas.
-
-[Board de Plano de Estudos](https://github.com/users/amandahammes/projects/7/views/1) 
