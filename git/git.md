@@ -33,7 +33,7 @@ Para comfirmar se foram adicionadas com sucesso: `git config --global -l`
 
 Para iniciar, vamos usar o comando: `git init`
 Quando inicia, cria-se a branch chamada *master*.
-Para saber o estado atual do repisotório: `git status`.
+Para saber o estado atual do repositório: `git status`.
 
 
 ## Comandos git para commit
