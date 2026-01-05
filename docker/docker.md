@@ -58,3 +58,17 @@ Exemplo de site estático que o docker disponibiliza para estudo. <br>
 `docker run -p 8080:80 -p 8443:443 -d dockersamples/static-site`: onde -p 8080:80 é a porta 8080 do host na porta 80 do container e -p 8443:443 é a porta 8443 do host na porta 443 do container. O -d significa detached (não vou atachar o client na saída do container, pois se eu ficar vendo a saída do container, não vai ter saída nenhuma, ele prende o terminal. Com o -d ele executa o container sem o output). <br>
 
 `docker rmi nomeContainer/IDCONTAINER`: remove imagem <br>
+
+## Imagens Personalizadas e Gestão de Volumes
+
+`docker build -t nameSpace/nomeImagem:versão`: acrescenta no final -f nomeDoArquivo se o nome do arquivo não for dockerfile. Esse comando é para criar imagem de acordo com o que está no dockerfile. No exemplo, nameSpace/nomeImagem:versão = "amandakopper/nginx:1.0.0". -t: cria uma tag da imagem, definindo nameSpace/nomeImagem:versão. <br>
+
+[Conteúdo de Exemplo do Arquivo DockerFile](/imagens/conteudo-dockerfile.png)
+
+Para ver se essa imagem está funcional: `run -d -p 8080:80 --name NOMEACOLOCARNOCONTAINER nameSpace/nomeImagem:versão` e em seguida `docker ps`. <br>
+
+`docker images`: lista as imagens docker criadas <br>
+
+`pwd`: mostra o caminho completo da pasta atual. <br>
+
+`docker run -d -p 8082:80 -v CAMINHOCOMPLETODOARQUIVO --name NOMECONTAINER nameSpace/nomeImagem:versão`:construindo novo container a partir de nameSpace/nomeImagem:versão. A mesma imagem criada acima, porém com o atributo -v CAMINHOCOMPLETODOARQUIVO.
