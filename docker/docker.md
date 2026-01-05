@@ -44,3 +44,17 @@ Para nomear container: `docker run --name NOMEACOLOCARNOCONTAINER -it ubuntu bas
 
 ## Criação de Imagens
 
+[Docker Hub](https://hub.docker.com/)
+
+Docker hub é a maior biblioteca do mundo em imagens de containers. Imagens que foram baixadas para utilização mais de um bilhão de vezes. Existem imagens para as mais diversas finalidades: banco de dados (ex mysql, mongodb, postgress), apache, etc. É do docker hub que vamos baixar a maioria das nossas imagens, ele é um register público de imagens para o docker. <br>
+
+Cada imagem é como se fosse uma receita de o que precisa para rodar uma instância para aquilo que ela foi criada. Ex: uma imagem de um mysql, vai ter a instalação de todas as dependências necessárias para instalar um servidor de mysql e depois a instalação de fato de um servidor mysql. E em seguida a instalação e disponibilização do servidor no container. Tudo de forma reproduzível através de uma imagem, pois a imagem é exatamente isso: um guia de como reproduzir aquilo quantas vezes necessárias e expor a porta do servidor (a porta do mysql, caso usando um myslq, por exemplo). Isso faz com que o container tenha o serviço do banco 100% disponível para uso. <br>
+
+[Imagem docker Sample Static Site](https://hub.docker.com/r/dockersamples/static-site)
+Exemplo de site estático que o docker disponibiliza para estudo. <br>
+
+`docker run dockersamples/static-site`: executar a imagem, no caso do exemplo, da dockersamples. Importante! As portas do projeto que rodamos no docker estão no container e não na máquina. <br>
+
+`docker run -p 8080:80 -p 8443:443 -d dockersamples/static-site`: onde -p 8080:80 é a porta 8080 do host na porta 80 do container e -p 8443:443 é a porta 8443 do host na porta 443 do container. O -d significa detached (não vou atachar o client na saída do container, pois se eu ficar vendo a saída do container, não vai ter saída nenhuma, ele prende o terminal. Com o -d ele executa o container sem o output). <br>
+
+`docker rmi nomeContainer/IDCONTAINER`: remove imagem <br>
