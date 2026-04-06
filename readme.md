@@ -50,7 +50,7 @@ Materiais formulados a partir de estudos e pesquisas pessoais na área de Qualit
 
 * [Lista API's Públicas](/API/apis-publicas.md)
 
-* [Sites para prática de lógica de programação](/Práticas/logica.md)
+* [Sites para prática de programação / automação](/Práticas/logica.md)
 
 
 <br><br>
