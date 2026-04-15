@@ -25,4 +25,4 @@ Sugestões do que usar:
 
     * Jackson Databind: O Jackson Databind é uma biblioteca fundamental do ecossistema Java, responsável por fornecer a funcionalidade de data binding (ligação de dados), que permite a conversão automática e eficiente entre objetos Java (conhecidos como POJOs, ou Plain Old Java Objects) e dados formatados, como JSON.
 
-    * Hamcrest: O Hamcrest é uma biblioteca que permite escrever afirmações (assertions) mais expressivas e legíveis em testes unitários. Em vez de usar métodos de asserção simples e genéricos (como assertEquals(esperado, real)), o Hamcrest introduz o conceito de "matchers" (comparadores) que tornam a intenção do teste mais clara, quase como se estivesse lendo uma frase em inglês. 
+    * Hamcrest: O Hamcrest é uma biblioteca que permite escrever afirmações (assertions) mais expressivas e legíveis em testes unitários. Em vez de usar métodos de asserção simples e genéricos (como assertEquals(esperado, real)), o Hamcrest introduz o conceito de "matchers" (comparadores) que tornam a intenção do teste mais clara, quase como se estivesse lendo uma frase em inglês.
