@@ -52,6 +52,8 @@ Materiais formulados a partir de estudos e pesquisas pessoais na área de Qualit
 
 * [Sites para prática de programação / automação](/Práticas/logica.md)
 
+* [Materiais úteis](\MateriaisUteis\materiaisUteis.md)
+
 
 <br><br>
 
