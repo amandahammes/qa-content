@@ -1,1 +1,1 @@
-[Panning Poker](https://planningpokeronline.com/)
+[Planning Poker](https://planningpokeronline.com/)

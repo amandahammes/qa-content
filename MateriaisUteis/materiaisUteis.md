@@ -6,4 +6,4 @@
 
 * [75 sites para praticar testes](https://www.ministryoftesting.com/articles/websites-to-practice-testing?s_id=16477752)
 
-* [Base 44 - constroi apps](https://base44.com/)
+* [Base 44 - constrói apps](https://base44.com/)

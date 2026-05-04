@@ -11,3 +11,5 @@
 [Traduções Engraçadas](https://funtranslations.com/api/)
 
 [Deck de Cartas](https://deckofcardsapi.com/)
+
+[ServeREST](https://serverest.dev/?lang=pt-BR)
