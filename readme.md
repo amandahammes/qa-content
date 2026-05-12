@@ -58,3 +58,6 @@ Materiais formulados a partir de estudos e pesquisas pessoais na área de Qualit
 <br><br>
 
 Criado por [Amanda Kopper Hammes](https://github.com/amandahammes) como arquivo de pesquisa. Contribuições são bem vindas.
+
+
+Alterando readme 1234567
